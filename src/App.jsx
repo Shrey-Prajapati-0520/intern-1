@@ -81,6 +81,12 @@ function App() {
                 <input type="button" value="+" onClick={() => handlebuttonclick('+')} />
               </div>
               <div>
+                <input type="button" value="1" onClick={() => handlebuttonclick('1')} />
+                <input type="button" value="2" onClick={() => handlebuttonclick('2')} />
+                <input type="button" value="3" onClick={() => handlebuttonclick('3')} />
+                <input type="button" value="-" onClick={() => handlebuttonclick('-')} />
+              </div>
+              <div>
                 <input type="button" value="00" onClick={() => handlebuttonclick('00')} />
                 <input type="button" value="0" onClick={() => handlebuttonclick('0')} />
                 <input type="button" className="equal" value="=" onClick={() => handlebuttonclick('=')} />
